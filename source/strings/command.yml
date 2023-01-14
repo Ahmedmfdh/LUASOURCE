@@ -1,0 +1,112 @@
+#
+# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+#
+# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# and is released under the "GNU v3.0 License Agreement".
+# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+#
+# All rights reserved.
+
+
+# Commands in Every Language
+
+# Bot Commands
+PING_COMMAND : ["/ping","ping","بينج"]
+START_COMMAND : ["/start","بدأ"]
+HELP_COMMAND : ["/help","help","الاوامر"]
+SETTINGS_COMMAND : ["/settings", "/setting","الاعدادات"]
+RELOAD_COMMAND : ["/admincache", "/reload","ريلود"]
+GSTATS_COMMAND : ["/gstats","الإحصائيات"]
+STATS_COMMAND : ["/stats","احصائيات"]
+LANGUAGE_COMMAND : ["/lang", "/language", "/langs","اللغه"]
+
+# Play Commands
+PLAY_COMMAND : ["/play","شغل","فيديو","تشغيل", "/vplay", "/cplay", "/cvplay", "/playforce", "/vplayforce", "/cplayforce", "/cvplayforce"]
+PLAYMODE_COMMAND : ["/playmode","وضع التشغيل"]
+CHANNELPLAY_COMMAND : ["/channelplay"]
+STREAM_COMMAND : ["/stream", "/cstream", "/streamforce","بث مباشر"]
+
+#Playlists Command
+PLAYLIST_COMMAND : ["playlist"]
+DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
+
+
+# Tools
+QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
+SONG_COMMAND : ["/song", "/video","تحميل"]
+LYRICS_COMMAND : ["/lyrics","كلمات"]
+
+
+# Admin Commands
+AUTH_COMMAND : ["/auth","ر ص ج"]
+UNAUTH_COMMAND : ["/unauth","ت ص ج"]
+AUTHUSERS_COMMAND : ["/authusers","ق ص ج"]
+PAUSE_COMMAND : ["/pause", "/cpause","وقف"]
+RESUME_COMMAND : ["/resume", "/cresume","كمل"]
+MUTE_COMMAND : ["/mute", "/cmute","بوت اكتم"]
+UNMUTE_COMMAND : ["/unmute", "/cunmute","بوت اتكلم"]
+STOP_COMMAND : ["/stop", "/end", "/cstop", "/cend","انهاء","ايقاف"]
+SKIP_COMMAND : ["/skip", "/cskip","تخطي"]
+SHUFFLE_COMMAND : ["/shuffle", "/cshuffle","بوت عشوائي"]
+LOOP_COMMAND : ["/loop", "/cloop","كرر"]
+SEEK_COMMAND : ["/seek", "/cseek", "/seekback", "/cseekback"]
+RESTART_COMMAND : ["/restart","اعادة تشغيل"]
+
+# Sudo Users Commaands
+
+# Sudo Command
+ADDSUDO_COMMAND : ["addsudo","رفع ثانوي"]
+DELSUDO_COMMAND : ["delsudo","تنزيل ثانوي"]
+SUDOUSERS_COMMAND : ["sudolist","المطورين"]
+
+#Broadcast 
+BROADCAST_COMMAND : ["/broadcast","اذاعه"]
+
+#Blacklist chat
+BLACKLISTCHAT_COMMAND : ["/blacklistchat","ح ا ا"]
+WHITELISTCHAT_COMMAND : ["/whitelistchat","ا ا"]
+BLACKLISTEDCHAT_COMMAND : ["/blacklistedchat","ق ح ا ا"]
+
+# Video Calls Command
+VIDEOLIMIT_COMMAND : ["/set_video_limit","ضع وقت محددف"]
+VIDEOMODE_COMMAND : ["/videomode","وضع الفيديو"]
+
+#Mantenance
+MAINTENANCE_COMMAND : ["/maintenance","صيانه"]
+LOGGER_COMMAND : ["/logger","لوججج"]
+
+#Heroku
+GETLOG_COMMAND : ["/get_log",]
+GETVAR_COMMAND : ["/get_vvar","حصول فارر"]
+DELVAR_COMMAND : ["/del_var","حذفف فار"]
+SETVAR_COMMAND : ["/set_var","ضاع فارر"]
+USAGE_COMMAND : ["/usage","الاستهلاكات"]
+VARS_COMMAND : ["/vars", "/config","كونفيقق"]
+
+
+#Basic Bot Commands
+UPDATE_COMMAND : ["/update","حدث سورس"]
+REBOOT_COMMAND : ["/reboot","ريبوت"]
+AUTOEND_COMMAND : ["/autoend","ايقاف تلقائي"]
+
+#Private Bot Mode
+AUTHORIZE_COMMAND : ["authorize"]
+UNAUTHORIZE_COMMAND : ["unauthorize"]
+AUTHORIZED_COMMAND : ["authorized"]
+
+#Block Users Command
+BLOCK_COMMAND : ["/block","حظر"]
+UNBLOCK_COMMAND : ["/unblock","الغاء ح"]
+BLOCKED_COMMAND : ["/blockedusers","المحظورين"]
+
+#sPEEDTEST
+SPEEDTEST_COMMAND : ["/speedtest","اختبار سرعه"]
+
+#Voice chat commands
+ACTIVEVC_COMMAND : ["activevoice"]
+ACTIVEVIDEO_COMMAND : ["activevideo"]
+
+#Gban Commands
+GBAN_COMMAND : ["/gban","حظر عام"]
+UNGBAN_COMMAND : ["ungban","الغاء عام"]
+GBANNED_COMMAND : ["gbannedusers","المحظورين عام"]
