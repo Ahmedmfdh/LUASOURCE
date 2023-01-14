@@ -1,0 +1,129 @@
+{
+    "name": "Yukki Music Bot",
+    "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
+    "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "Yukki",
+    "YukkiMusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "stack": "container",
+    "env": {
+      "API_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "29177601",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "0405797694dfaa64f254c39873e930fb",
+        "required": true
+      },
+      "AUTO_LEAVING_ASSISTANT": {
+        "description": "If you want your assistant to leave all chats automatically after some time.",
+        "value": "True",
+        "required": false
+      },
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "5728997104:AAEWbbyQsnTCVpka5fK8LjsfRIUmhS5no44",
+        "required": true
+      },
+      "BOT_USER": {
+        "description": "يوزر البوت",
+        "value": "Than00sbot",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
+        "value": "mongodb+srv://Zohary23:ZOHARY23@cluster0.kgxrztg.mongodb.net/?retryWrites=true&w=majority",
+        "required": true
+      },
+      "DEV_BOT": {
+        "description": "ايدي المطور",
+        "value": "5634805056",
+        "required": true
+      },
+      "MUST_JOIN": {
+        "description": "قناة الاشتراك",
+        "value": "TGe_R",
+        "required": true
+      },
+      "START_IMG_URL": {
+        "description": "صورة استارت",
+        "value": "https://telegra.ph/file/f356d22789e5d7dd84865.jpg",
+        "required": true
+      },
+      "USER_OWNER": {
+        "description": "يوزر المطور",
+        "value": "Z0HARY",
+        "required": true
+      },
+      "MUSIC_BOT_NAME": {
+        "description": "A name for your Music Bot. Please don't use ascii characters",
+        "value": "THANOS",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "value": "5634805056",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "value": "BAB2FzkphNLebquFqCPCM4yJ6ao7An0SW_JKKc-T2-FLt8yJz77u_LMTLI2PFK_cL7vKHCefOKKN4FndzoHtKXPYzgNQ4wB3YH57Jhe72AgZoThXY_-uJ9u_2vou2t2ttYFQjJOWOcW5DR76HKaDzwOFNnyidpqtXy7PxM7uPtqAKHOa0mbbF5rjCSdL2BgFLYxiVGvxU1hZfH7TpzUczZiQj95OxEBJ7rdNrcyOUgq_b70_U6RxP_lP-yGefljIjizXrQ6dmETVI6I5zl4wnRbFEgv3DzrlsjPCjSb2YYuzDePr7E0gAptgVssdT-14zwhGoc3_bk47BmDb1xkG_egJAAAAAUfEYCoA",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku account's API key",
+        "value": "53c11214-2f66-42ef-a15b-3f363a8517f2",
+        "required": false
+      },
+      "GIT_TOKEN": {
+        "description": "توكن الجيت هب" ,
+        "value": "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",
+        "required": true
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Your heroku app/bot's name",
+        "value": "",
+        "required": false
+      },
+      "LOG_GROUP_ID": {
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
+        "value": "-1001865596778",
+        "required": true
+      },
+      "UPSTREAM_REPO": {
+        "description": "If you dont know this, Leave as it is",
+        "value": "https://github.com/Zohary159/zarta",
+        "required": true
+      },
+      "UPSTREAM_BRANCH": {
+        "description": "Upstream Repo's Branch Name",
+        "value": "master",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "free"
+          }
+      }
+  }
